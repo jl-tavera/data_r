@@ -44,13 +44,13 @@ str(data_csv) # Inspeccionar las variables del dataframe
 
 # Importar bases de datos en formato .xls y .xlsx 
 cat("Importar base de datos: hurto-personas-2020_0.xlsx")
-data_xls = read_excel(path = "" , sheet = "Sheet1" , col_names = TRUE, skip = 9) 
+data_xls = read_excel(path = "data_4/input/hurto-personas-2020_0.xlsx" , sheet = "Sheet1" , col_names = TRUE, skip = 9) 
 head(data_xls)
 str(data_xls) 
 
 # Importar bases de datos en formato .dta
 cat("Importar base de datos: Area - Caracteristicas generales (Personas).dta")
-data_dta = read_dta(file = "") 
+data_dta = read_dta(file = "data_4/input/Area - Caracteristicas generales (Personas).dta") 
 head(data_dta)
 str(data_dta)
 
